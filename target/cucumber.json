@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-11-15T23:17:46.961Z",
+        "line": 3,
+        "name": "User should be able to register to the application with proper data",
+        "description": "",
+        "id": "registration;user-should-be-able-to-register-to-the-application-with-proper-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6896442334,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user goes to the http://automationpractice.com main page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://automationpractice.com",
+                  "offset": 17
+                }
+              ],
+              "location": "GoToSteps.goToThePage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996339466,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "he goes to the authentication page",
+            "match": {
+              "location": "GoToSteps.goToTheAuthenticationPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5290371424,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "he fills the form with default data",
+            "match": {
+              "location": "RegistrationSteps.registerUser()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80568343,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "he is logged in and my account page is displayed",
+            "match": {
+              "location": "LoginSteps.userShouldBeLoggedIn()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/myproject/features/registration.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Registration" time="15.229" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="13"/>
+    <property name="webdriver.chrome.driver" value="/Users/robertfranczak/.m2/repository/webdriver/chromedriver/mac64/78.0.3904.70/chromedriver"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/robertfranczak/IdeaProjects/MyProject/target/test-classes:/Users/robertfranczak/IdeaProjects/MyProject/target/classes:/Users/robertfranczak/.m2/repository/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar:/Users/robertfranczak/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-junit47/2.22.2/surefire-junit47-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-junit48/2.22.2/common-junit48-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-junit4/2.22.2/common-junit4-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-junit3/2.22.2/common-junit3-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-java5/2.22.2/common-java5-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.2/surefire-grouper-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar:/Users/robertfranczak/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/robertfranczak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-java/4.8.0/cucumber-java-4.8.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-core/4.8.0/cucumber-core-4.8.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/robertfranczak/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/robertfranczak/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/robertfranczak/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-junit/4.8.0/cucumber-junit-4.8.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/robertfranczak/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/robertfranczak/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/robertfranczak/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/robertfranczak/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/robertfranczak/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/robertfranczak/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/robertfranczak/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/robertfranczak/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/robertfranczak/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/robertfranczak/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/robertfranczak/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/Users/robertfranczak/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/robertfranczak/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/robertfranczak/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/robertfranczak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/robertfranczak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/robertfranczak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/robertfranczak/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/robertfranczak/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/robertfranczak/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/robertfranczak/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Warsaw"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/robertfranczak/IdeaProjects/MyProject/target/surefire/surefirebooter12187054867970929642.jar /Users/robertfranczak/IdeaProjects/MyProject/target/surefire 2019-11-13T12-10-18_066-jvmRun1 surefire8181123267679277743tmp surefire_018419315520333163480tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/robertfranczak/IdeaProjects/MyProject/target/test-classes:/Users/robertfranczak/IdeaProjects/MyProject/target/classes:/Users/robertfranczak/.m2/repository/org/slf4j/slf4j-simple/1.6.1/slf4j-simple-1.6.1.jar:/Users/robertfranczak/.m2/repository/org/slf4j/slf4j-api/1.6.1/slf4j-api-1.6.1.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-junit47/2.22.2/surefire-junit47-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-junit48/2.22.2/common-junit48-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-junit4/2.22.2/common-junit4-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-junit3/2.22.2/common-junit3-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/common-java5/2.22.2/common-java5-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/shared/maven-shared-utils/0.9/maven-shared-utils-0.9.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-grouper/2.22.2/surefire-grouper-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-api/2.22.2/surefire-api-2.22.2.jar:/Users/robertfranczak/.m2/repository/org/apache/maven/surefire/surefire-logger-api/2.22.2/surefire-logger-api-2.22.2.jar:/Users/robertfranczak/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/robertfranczak/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-java/4.8.0/cucumber-java-4.8.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-core/4.8.0/cucumber-core-4.8.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/robertfranczak/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/robertfranczak/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/robertfranczak/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-junit/4.8.0/cucumber-junit-4.8.0.jar:/Users/robertfranczak/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/robertfranczak/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/robertfranczak/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/robertfranczak/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/robertfranczak/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/robertfranczak/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/robertfranczak/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/robertfranczak/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/robertfranczak/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/robertfranczak/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/robertfranczak/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/robertfranczak/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/robertfranczak/.m2/repository/io/github/bonigarcia/webdrivermanager/3.7.1/webdrivermanager-3.7.1.jar:/Users/robertfranczak/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/robertfranczak/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/robertfranczak/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/robertfranczak/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/robertfranczak/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/robertfranczak/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/robertfranczak/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/robertfranczak/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/robertfranczak/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/robertfranczak/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/robertfranczak"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/robertfranczak/IdeaProjects/MyProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/robertfranczak/IdeaProjects/MyProject/target/surefire/surefirebooter12187054867970929642.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="user.name" value="robertfranczak"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="seleniumGridUrl" value="http://localhost:4444/wd/hub"/>
+    <property name="localRepository" value="/Users/robertfranczak/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/rd/3fnxw8fx1l3dywrk46bqpjf00000gn/T/"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="user.dir" value="/Users/robertfranczak/IdeaProjects/MyProject"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="environment" value="local"/>
+    <property name="java.library.path" value="/Users/robertfranczak/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="57.0"/>
+  </properties>
+  <testcase name="User should be able to register to the application with proper data" classname="Registration" time="15.229">
+    <error message="stale element reference: element is not attached to the page document&#10;  (Session info: chrome=78.0.3904.97)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MacBook-Pro-Robert.local&apos;, ip: &apos;fe80:0:0:0:1082:485d:f34d:4f64%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.5&apos;, java.version: &apos;13.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/rd/3fnxw8fx1l3...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 7bc97dc42d6dc3facfe4132e3e01b118" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Robert.local', ip: 'fe80:0:0:0:1082:485d:f34d:4f64%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/rd/3fnxw8fx1l3...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bc97dc42d6dc3facfe4132e3e01b118
+</error>
+    <system-out><![CDATA[Feature: Add products to cart
+
+  Scenario Outline: User should be able to add different products to the cart in different ways &amp#27;[90m# src/test/resources/myproject/features/AddProductsToCart.feature:3&amp#27;[0m
+    &amp#27;[36mGiven user goes to the http://automationpractice.com main page&amp#27;[0m
+    &amp#27;[36mAnd he logs in with default credentials&amp#27;[0m
+    &amp#27;[36mAnd he searches for <product> product&amp#27;[0m
+    &amp#27;[36mAnd he adds product number 1 to the cart&amp#27;[0m
+    &amp#27;[36mAnd he adds product number 2 to the cart from quick view popup&amp#27;[0m
+    &amp#27;[36mAnd he adds product number 3 to the cart from product's details page&amp#27;[0m
+    &amp#27;[36mWhen he goes to the cart&amp#27;[0m
+    &amp#27;[36mThen he should see 2 products added to the cart&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: User should be able to add different products to the cart in different ways &amp#27;[90m# src/test/resources/myproject/features/AddProductsToCart.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to the &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://automationpractice.com&amp#27;[0m&amp#27;[32m main page&amp#27;[0m                              &amp#27;[90m# StepDefs.goToThePage(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhe logs in with default credentials&amp#27;[0m                                                     &amp#27;[90m# StepDefs.logIn()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhe searches for &amp#27;[0m&amp#27;[32m&amp#27;[1mdress&amp#27;[0m&amp#27;[32m product&amp#27;[0m                                                           &amp#27;[90m# StepDefs.searchForProduct(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mhe adds product number &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                    &amp#27;[90m# StepDefs.heAddsProductToTheCart(int)&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mhe adds product number &amp#27;[0m&amp#27;[31m&amp#27;[1m2&amp#27;[0m&amp#27;[31m to the cart from quick view popup&amp#27;[0m                              &amp#27;[90m# StepDefs.heAddsIndifferentProductToTheCartFromQuickViewPopup(int)&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: #add_to_cart > button (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at myproject.page.QuickViewPage.expectElements(QuickViewPage.java:11)
+	at myproject.common.StepDefs.heAddsIndifferentProductToTheCartFromQuickViewPopup(StepDefs.java:122)
+	at ✽.he adds product number 2 to the cart from quick view popup(file:src/test/resources/myproject/features/AddProductsToCart.feature:8)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#add_to_cart > button"}
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Robert.local', ip: 'fe80:0:0:0:1082:485d:f34d:4f64%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/rd/3fnxw8fx1l3...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bc97dc42d6dc3facfe4132e3e01b118
+*** Element info: {Using=css selector, value=#add_to_cart > button}
+	at jdk.internal.reflect.GeneratedConstructorAccessor9.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	at myproject.page.QuickViewPage.expectElements(QuickViewPage.java:11)
+	at myproject.common.StepDefs.heAddsIndifferentProductToTheCartFromQuickViewPopup(StepDefs.java:122)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:57)
+	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
+	at cucumber.runner.TestCase.run(TestCase.java:46)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:410)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mhe adds product number &amp#27;[0m&amp#27;[36m&amp#27;[1m3&amp#27;[0m&amp#27;[36m to the cart from product's details page&amp#27;[0m                        &amp#27;[90m# StepDefs.heAddsIndifferentProductToTheCartFromProductSDetailsPage(int)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhe goes to the cart&amp#27;[0m                                                                    &amp#27;[90m# StepDefs.heGoesToTheCart()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mhe should see &amp#27;[0m&amp#27;[36m&amp#27;[1m2&amp#27;[0m&amp#27;[36m products added to the cart&amp#27;[0m                                             &amp#27;[90m# StepDefs.heShouldSeeProductsAddedToTheCart(int)&amp#27;[0m
+
+Feature: Login
+
+  Scenario Outline: User should be able to log in to the application with proper credentials &amp#27;[90m# src/test/resources/myproject/features/Login.feature:3&amp#27;[0m
+    &amp#27;[36mGiven user goes to the http://automationpractice.com main page&amp#27;[0m
+    &amp#27;[36mWhen he goes to the authentication page&amp#27;[0m
+    &amp#27;[36mAnd he enter <login> and <password> credentials&amp#27;[0m
+    &amp#27;[36mThen he is logged in and my account page is displayed&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: User should be able to log in to the application with proper credentials &amp#27;[90m# src/test/resources/myproject/features/Login.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to the &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://automationpractice.com&amp#27;[0m&amp#27;[32m main page&amp#27;[0m                           &amp#27;[90m# StepDefs.goToThePage(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mhe goes to the authentication page&amp#27;[0m                                                  &amp#27;[90m# StepDefs.goToTheAuthenticationPage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Robert.local', ip: 'fe80:0:0:0:1082:485d:f34d:4f64%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/rd/3fnxw8fx1l3...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bc97dc42d6dc3facfe4132e3e01b118
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utils.WebDriverUtils.click(WebDriverUtils.java:21)
+	at myproject.page.HomepagePage.goToTheAuthenticationPage(HomepagePage.java:12)
+	at myproject.common.StepDefs.goToTheAuthenticationPage(StepDefs.java:54)
+	at ✽.he goes to the authentication page(file:src/test/resources/myproject/features/Login.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mhe enter &amp#27;[0m&amp#27;[36m&amp#27;[1mdefnrbjefkdm3848@mailinator.com&amp#27;[0m&amp#27;[36m and &amp#27;[0m&amp#27;[36m&amp#27;[1mrrrrr&amp#27;[0m&amp#27;[36m credentials&amp#27;[0m                       &amp#27;[90m# StepDefs.enterLoginCredentials(String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mhe is logged in and my account page is displayed&amp#27;[0m                                    &amp#27;[90m# StepDefs.userShouldBeLoggedIn()&amp#27;[0m
+
+Feature: Registration
+
+  Scenario Outline: User should be able to register to the application with proper data &amp#27;[90m# src/test/resources/myproject/features/Registration.feature:3&amp#27;[0m
+    &amp#27;[36mGiven user goes to the http://automationpractice.com main page&amp#27;[0m
+    &amp#27;[36mWhen he goes to the authentication page&amp#27;[0m
+    &amp#27;[36mAnd he fills the form with <domain> <title> <name> <lastName> <password> <street> <city> <state> <postalCode> <phoneNumber> data&amp#27;[0m
+    &amp#27;[36mThen he is logged in and my account page is displayed&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: User should be able to register to the application with proper data                                    &amp#27;[90m# src/test/resources/myproject/features/Registration.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to the &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://automationpractice.com&amp#27;[0m&amp#27;[32m main page&amp#27;[0m                                                         &amp#27;[90m# StepDefs.goToThePage(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mhe goes to the authentication page&amp#27;[0m                                                                                &amp#27;[90m# StepDefs.goToTheAuthenticationPage()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Robert.local', ip: 'fe80:0:0:0:1082:485d:f34d:4f64%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/rd/3fnxw8fx1l3...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bc97dc42d6dc3facfe4132e3e01b118
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utils.WebDriverUtils.click(WebDriverUtils.java:21)
+	at myproject.page.HomepagePage.goToTheAuthenticationPage(HomepagePage.java:12)
+	at myproject.common.StepDefs.goToTheAuthenticationPage(StepDefs.java:54)
+	at ✽.he goes to the authentication page(file:src/test/resources/myproject/features/Registration.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mhe fills the form with &amp#27;[0m&amp#27;[36m&amp#27;[1m8@mailinator.com&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1mMr&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1mRobert&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1mFranczak&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1mqwerty123&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1mStreet18&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1mCity123&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1mAlabama&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1m12345&amp#27;[0m&amp#27;[36m &amp#27;[0m&amp#27;[36m&amp#27;[1m123456789&amp#27;[0m&amp#27;[36m data&amp#27;[0m &amp#27;[90m# StepDefs.registerUser(String,String,String,String,String,String,String,String,String,String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mhe is logged in and my account page is displayed&amp#27;[0m                                                                  &amp#27;[90m# StepDefs.userShouldBeLoggedIn()&amp#27;[0m
+
+Feature: Search engine
+
+  Scenario Outline: User should be able to search for products &amp#27;[90m# src/test/resources/myproject/features/SearchEngine.feature:3&amp#27;[0m
+    &amp#27;[36mGiven user goes to the http://automationpractice.com main page&amp#27;[0m
+    &amp#27;[36mAnd he logs in with default credentials&amp#27;[0m
+    &amp#27;[36mWhen he searches for <product> product&amp#27;[0m
+    &amp#27;[36mThen he should see results&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: User should be able to search for products     &amp#27;[90m# src/test/resources/myproject/features/SearchEngine.feature:11&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to the &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://automationpractice.com&amp#27;[0m&amp#27;[32m main page&amp#27;[0m &amp#27;[90m# StepDefs.goToThePage(String)&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mhe logs in with default credentials&amp#27;[0m                        &amp#27;[90m# StepDefs.logIn()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Robert.local', ip: 'fe80:0:0:0:1082:485d:f34d:4f64%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/rd/3fnxw8fx1l3...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bc97dc42d6dc3facfe4132e3e01b118
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utils.WebDriverUtils.click(WebDriverUtils.java:21)
+	at myproject.page.HomepagePage.goToTheAuthenticationPage(HomepagePage.java:12)
+	at myproject.common.StepDefs.goToTheAuthenticationPage(StepDefs.java:54)
+	at myproject.common.StepDefs.logIn(StepDefs.java:59)
+	at ✽.he logs in with default credentials(file:src/test/resources/myproject/features/SearchEngine.feature:5)
+&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhe searches for &amp#27;[0m&amp#27;[36m&amp#27;[1mdress&amp#27;[0m&amp#27;[36m product&amp#27;[0m                             &amp#27;[90m# StepDefs.searchForProduct(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mhe should see results&amp#27;[0m                                     &amp#27;[90m# StepDefs.shouldSeeResult()&amp#27;[0m
+
+Feature: Add products to cart
+
+  Scenario Outline: User should be able to add different products to the cart in different ways &amp#27;[90m# src/test/resources/myproject/features/SortProducts.feature:3&amp#27;[0m
+    &amp#27;[36mGiven user goes to the http://automationpractice.com main page&amp#27;[0m
+    &amp#27;[36mAnd he logs in with default credentials&amp#27;[0m
+    &amp#27;[36mAnd he searches for <product> product&amp#27;[0m
+    &amp#27;[36mWhen he sorts products by <sortOption>&amp#27;[0m
+    &amp#27;[36mThen products are sorted by <sortOption>&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: User should be able to add different products to the cart in different ways &amp#27;[90m# src/test/resources/myproject/features/SortProducts.feature:15&amp#27;[0m
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser goes to the &amp#27;[0m&amp#27;[32m&amp#27;[1mhttp://automationpractice.com&amp#27;[0m&amp#27;[32m main page&amp#27;[0m                              &amp#27;[90m# StepDefs.goToThePage(String)&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mhe logs in with default credentials&amp#27;[0m                                                     &amp#27;[90m# StepDefs.logIn()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=78.0.3904.97)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MacBook-Pro-Robert.local', ip: 'fe80:0:0:0:1082:485d:f34d:4f64%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.97, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: /var/folders/rd/3fnxw8fx1l3...}, goog:chromeOptions: {debuggerAddress: localhost:51841}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 7bc97dc42d6dc3facfe4132e3e01b118
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at utils.WebDriverUtils.click(WebDriverUtils.java:21)
+	at myproject.page.HomepagePage.goToTheAuthenticationPage(HomepagePage.java:12)
+	at myproject.common.StepDefs.goToTheAuthenticationPage(StepDefs.java:54)
+	at myproject.common.StepDefs.logIn(StepDefs.java:59)
+	at ✽.he logs in with default credentials(file:src/test/resources/myproject/features/SortProducts.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mhe searches for &amp#27;[0m&amp#27;[36m&amp#27;[1mdress&amp#27;[0m&amp#27;[36m product&amp#27;[0m                                                           &amp#27;[90m# StepDefs.searchForProduct(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mhe sorts products by &amp#27;[0m&amp#27;[36m&amp#27;[1mPrice: Lowest first&amp#27;[0m                                               &amp#27;[90m# StepDefs.heSortsProductsBySortOption(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mproducts are sorted by &amp#27;[0m&amp#27;[36m&amp#27;[1mPrice: Lowest first&amp#27;[0m                                             &amp#27;[90m# StepDefs.productsAreSortedBySortOption(String)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
