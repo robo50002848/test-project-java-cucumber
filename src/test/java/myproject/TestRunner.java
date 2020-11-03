@@ -10,7 +10,7 @@ import static utils.WebDriverUtils.quitDriver;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = {"src/test/resources/myproject/features"},
+        features = {"src/test/resources/myproject/features/registration.feature"},
         plugin = {
                 "pretty",
                 "html:target/cucumber",
